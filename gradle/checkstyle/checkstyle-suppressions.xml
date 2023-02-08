@@ -1,0 +1,12 @@
+<?xml version="1.0"?>
+<!DOCTYPE suppressions PUBLIC
+        "-//Checkstyle//DTD SuppressionFilter Configuration 1.2//EN"
+        "https://checkstyle.org/dtds/suppressions_1_2.dtd">
+<suppressions>
+    <suppress files="[\\/]src[\\/]test[\\/]java[\\/]" checks="AvoidStarImport|Javadoc*|SecurityManagerCheck"/>
+    <suppress files=".*Tests\.java" checks="AvoidStarImport|Javadoc*|SecurityManagerCheck"/>
+    <suppress files=".*[\\/]generated[\\/].*\.java" checks=".*"/>
+    <suppress files=".*[\\/]SwaggerTests.java" checks="TestMethodName"/>
+    <suppress files=".*[\\/]com[\\/]walgreens[\\/]h3[\\/]function[\\/]medispanparser[\\/]parser[\\/].*\.java" checks="Javadoc*"/>
+    <suppress files=".*[\\/]com[\\/]walgreens[\\/]h3[\\/]cosmos[\\/].*\.java" checks="RegexpSinglelineJavaCheck"/>
+</suppressions>
