@@ -1,2 +1,6 @@
 <FindBugsFilter>
+    <!--    for test purposes ignore unused field-->
+    <Match>
+        <Bug pattern="UUF_UNUSED_FIELD"/>
+    </Match>
 </FindBugsFilter>
