@@ -29,3 +29,5 @@ build/
 logs/
 target/
 .idea/
+
+*.iml
